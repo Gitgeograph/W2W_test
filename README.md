@@ -1,9 +1,9 @@
 ```bash
-cd W2W 
+cd W2W_test
 python -m venv venv
 source venv/bin/activate
 cd backend 
-pip install r requirements.txt
+pip install -r requirements.txt
 py manage.py migrate
 py manage.py loaddata tapp/fixtures/data.json
 py manage.py runserver
