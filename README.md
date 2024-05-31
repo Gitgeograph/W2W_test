@@ -1,3 +1,4 @@
+```bash
 cd W2W 
 python -m venv venv
 source venv/bin/activate
@@ -11,3 +12,4 @@ py manage.py runserver
 cd frontend
 npm install
 npm start
+```
